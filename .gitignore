@@ -1,0 +1,18 @@
+#Build output
+build/
+server
+client
+
+#object / dependency files
+*.o
+*.d
+
+# Valgrid / core dumps 
+vgcore.*
+core
+#Database files created at runtime
+*.aof
+*.rdb
+
+#Editor
+.vscode/ipch/
